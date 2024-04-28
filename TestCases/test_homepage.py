@@ -33,6 +33,7 @@ class TestHomePage(BaseClass):
         time.sleep(5)
         message = self.driver.find_element(By.CLASS_NAME, "alert-success").text
         print(message)
+        print("First name prints in logs")
         assert "Success" in message
         self.driver.get_screenshot_as_file("Screen1.png")
         self.driver.refresh()
