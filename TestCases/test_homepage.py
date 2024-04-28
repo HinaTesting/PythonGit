@@ -16,6 +16,7 @@ class TestHomePage(BaseClass):
         #self.driver.find_element(By.CSS_SELECTOR, "input[name='name']").send_keys("Rahul")
         self.driver.implicitly_wait(4)
         homepage=HomePage(self.driver)
+        print("First name prints in logs")
         log.info("Firstname is"+getData["Firstname"])
         homepage.getName().send_keys(getData["Firstname"])
         #self.driver.find_element(By.NAME, "email").send_keys("hinafatima@gmail.com")
