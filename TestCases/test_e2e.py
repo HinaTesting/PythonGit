@@ -22,6 +22,8 @@ class TestOne(BaseClass):
         homePage=HomePage(self.driver)
         homePage.ShopItems().click()
         log.info("getting all the card titles")
+        print("getting all the card titles")
+        print("getting all the card titles2")
         #products = self.driver.find_elements(By.XPATH, "//div[@class='card h-100']")
         checkoutPage= CheckOutPage(self.driver)
         cards=checkoutPage.ShopProducts()
