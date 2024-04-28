@@ -24,7 +24,8 @@ class TestOne(BaseClass):
         log.info("getting all the card titles")
 
         print("getting all the card titles2")
-        print("getting all the card titles3")
+        print("getting all the card titles333")
+        print("getting all the card titles4")
 
         print("getting all the card titles5")
         print("getting all the card titles6")
